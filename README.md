@@ -11,7 +11,7 @@ Link to Original Data Source: https://www.kaggle.com/datasets/becksddf/churn-in-
 SyriaTel wants to better understand what features are indicators that a customer is more likely to churn. Keeping an existing customer is cheaper than acuiring a new one so they want to be able to proactively reach out to customers and offer them incentives to stay.
 
 ## 3. Data Exploration
-There were no nulls that needed to be dropped, but there are object columns to deal with. Decided to drop phone number becuase it does not seem relevant.
+There were no nulls that needed to be dropped, but there are object columns to deal with. Decided to drop phone number becuase it does not seem relevant. Replaced spaces between column names with underscore.
 
 I explored a number of features to see how they are related to churn.
 
@@ -42,6 +42,8 @@ Here are some of the top findings about customers who churn:
 
 * No difference in average acount length
 
+Account Length vs Churn [image](https://github.com/Kmulla19/Project-3/blob/main/Images/Account_Length.png)
+
 
 Further individual exploration of these features revealed the following:
 
@@ -52,6 +54,8 @@ Customers who churn spend $7 more a month than those who do not.
 #### Customer Service
 
 There is a signifcant difference in churn rate between 3 and 4 calls.
+
+[image](https://github.com/Kmulla19/Project-3/blob/main/Images/Customer_Service_calls.png)
 
 
 #### Voicemail and International Plan
